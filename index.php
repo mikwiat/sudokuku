@@ -1,5 +1,8 @@
 <?php
 
+define('ROOT', dirname(__FILE__));
+require ROOT . '/Classes/Autoloader.php';
+
 if ($_POST)
 {
 	try
